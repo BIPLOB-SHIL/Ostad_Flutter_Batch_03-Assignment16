@@ -24,23 +24,21 @@ Cafty Bay an ecommerce app, allows users to shop online, browse product categori
 
 ## Used Packages
 
-![image](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/assets/112534902/b62e65af-7b0d-402c-92cc-1ea6bd13bf2d)
+//● get: ^4.6.6: State management
+//● flutter_svg: ^2.0.7: Easily display and manipulate SVG files
+● pin_code_fields: ^8.0.1: Implement PIN or OTP input fields
+● carousel_slider: ^4.2.1: Creating interactive and dynamic image galleries
+● cart_stepper: ^4.1.2: Widget to get count
+● http: ^1.1.0: Fetching data from APIs and working with web services
+● shared_preferences: ^2.2.1: Storing app settings and small amounts of data.
+● smart_snackbars: ^1.0.0: Create highly customized snackbars and toasts 
+● connectivity_plus: ^5.0.1: Monitoring network connectivity
+● webview_flutter: ^4.4.2: Allow HTML content to be displayed through a browser inside an application 
+● flutter_phone_direct_caller: ^2.1.1: To call a number directly, without going to phone dialer
+
 
 ## MVP Structure
 
-![image](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/assets/112534902/8997f5fa-af95-4e26-8ea9-9f95e211b4f7)
 
 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
