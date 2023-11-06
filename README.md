@@ -4,10 +4,10 @@
 Cafty Bay an ecommerce app, allows users to shop online, browse product categories, create wish lists, add items to a cart, and complete purchases. It also provides payment processing, shipping, and order management capabilities.
 
 # Application Download Link
-●
+● 
 
 # Demonstration Link
-●
+● 
 
 # Features of Crafty Bay
 ● Checking internet connection 
@@ -17,6 +17,8 @@ Cafty Bay an ecommerce app, allows users to shop online, browse product categori
 ● Check whether the user is registered or not before placing an order
 
 # User Interface
+![Screenshot_20231106_174212](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/assets/112534902/a20a5d70-feb9-4fd1-b113-fcd2b25677f3),![Screenshot_20231106_183317](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/assets/112534902/d388a9ef-1412-4433-bd66-fe68c32db5bc)
+
 
 # Used Packages
 
