@@ -22,7 +22,7 @@ Cafty Bay an ecommerce app, allows users to shop online, browse product categori
 ![image](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/assets/112534902/afddaf63-a702-414b-8e4c-af7f5255b9c7)
 
 ## Used Packages
-[Upl● get: ^4.6.6: State management
+● get: ^4.6.6: State management
 ● flutter_svg: ^2.0.7: Easily display and manipulate SVG files
 ● pin_code_fields: ^8.0.1: Implement PIN or OTP input fields
 ● carousel_slider: ^4.2.1: Creating interactive and dynamic image galleries
@@ -32,13 +32,10 @@ Cafty Bay an ecommerce app, allows users to shop online, browse product categori
 ● smart_snackbars: ^1.0.0: Create highly customized snackbars and toasts 
 ● connectivity_plus: ^5.0.1: Monitoring network connectivity
 ● webview_flutter: ^4.4.2: Allow HTML content to be displayed through a browser inside an application 
-● flutter_phone_direct_caller: ^2.1.1: To call a number directly, without going to phone dialeroading pubget.txt…]()
-
-
+● flutter_phone_direct_caller: ^2.1.1: To call a number directly, without going to phone dialer
 
 ## MVP Structure
-[README (2).md](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/files/13269580/README.2.md)
-craftybay/
+##craftybay/
 ├── assets/
 │   └── images/
 │       ├── internet_connection.png
@@ -60,7 +57,7 @@ craftybay/
     │   │   ├── product_review_list_model.dart
     │   │   ├── porduct_wish_list_model.dart
     │   │   ├── read_profile_model.dart
-    │   │   ├── slider_model.dart
+    │   │   └── slider_model.dart
     │   │ 
     │   ├── services/
     │   │   └── network_caller.dart
@@ -88,7 +85,7 @@ craftybay/
     │       ├── product_wish_list_controller.dart
     │       ├── read_profile_controller.dart
     │       ├── special_product_controller.dart
-    │       ├── theme_manager_controller.dart
+    │       └── theme_manager_controller.dart
     │      
     ├── ui/
     │    ├── utility/
