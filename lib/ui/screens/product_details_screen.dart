@@ -2,7 +2,6 @@ import 'package:assignment16/presentation/state_holders/add_to_cart_controller.d
 import 'package:assignment16/presentation/state_holders/create_wish_list_controller.dart';
 import 'package:assignment16/presentation/state_holders/product_details_controller.dart';
 import 'package:assignment16/ui/screens/reviews_screen.dart';
-import 'package:assignment16/ui/screens/wish_list_screen.dart';
 import 'package:assignment16/ui/widgets/product_image_slider.dart';
 import 'package:cart_stepper/cart_stepper.dart';
 import 'package:flutter/cupertino.dart';
