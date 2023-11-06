@@ -1,4 +1,4 @@
-# CraftyBay
+[pubget.txt](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/files/13269542/pubget.txt)# CraftyBay
 
 ## Description
 Cafty Bay an ecommerce app, allows users to shop online, browse product categories, create wish lists, add items to a cart, and complete purchases. It also provides payment processing, shipping, and order management capabilities.
@@ -22,7 +22,7 @@ Cafty Bay an ecommerce app, allows users to shop online, browse product categori
 ![image](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/assets/112534902/afddaf63-a702-414b-8e4c-af7f5255b9c7)
 
 ## Used Packages
-● get: ^4.6.6: State management
+[Upl● get: ^4.6.6: State management
 ● flutter_svg: ^2.0.7: Easily display and manipulate SVG files
 ● pin_code_fields: ^8.0.1: Implement PIN or OTP input fields
 ● carousel_slider: ^4.2.1: Creating interactive and dynamic image galleries
@@ -32,7 +32,8 @@ Cafty Bay an ecommerce app, allows users to shop online, browse product categori
 ● smart_snackbars: ^1.0.0: Create highly customized snackbars and toasts 
 ● connectivity_plus: ^5.0.1: Monitoring network connectivity
 ● webview_flutter: ^4.4.2: Allow HTML content to be displayed through a browser inside an application 
-● flutter_phone_direct_caller: ^2.1.1: To call a number directly, without going to phone dialer
+● flutter_phone_direct_caller: ^2.1.1: To call a number directly, without going to phone dialeroading pubget.txt…]()
+
 
 
 ## MVP Structure
