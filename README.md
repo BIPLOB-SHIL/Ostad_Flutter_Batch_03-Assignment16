@@ -37,6 +37,7 @@ Cafty Bay an ecommerce app, allows users to shop online, browse product categori
 
 
 ## MVP Structure
+[README (2).md](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/files/13269580/README.2.md)
 craftybay/
 ├── assets/
 │   └── images/
@@ -124,6 +125,9 @@ craftybay/
     │         ├── product_wish_list_card.dart
     │         └── reviews_card.dart
     └── main.dart
+
+
+
 
 
 
