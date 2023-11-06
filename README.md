@@ -1,4 +1,4 @@
-[pubget.txt](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/files/13269542/pubget.txt)# CraftyBay
+# CraftyBay
 
 ## Description
 Cafty Bay an ecommerce app, allows users to shop online, browse product categories, create wish lists, add items to a cart, and complete purchases. It also provides payment processing, shipping, and order management capabilities.
@@ -35,7 +35,7 @@ Cafty Bay an ecommerce app, allows users to shop online, browse product categori
 ● flutter_phone_direct_caller: ^2.1.1: To call a number directly, without going to phone dialer
 
 ## MVP Structure
-##craftybay/
+craftybay/
 ├── assets/
 │   └── images/
 │       ├── internet_connection.png
