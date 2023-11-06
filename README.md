@@ -24,8 +24,8 @@ Cafty Bay an ecommerce app, allows users to shop online, browse product categori
 
 ## Used Packages
 
-//● get: ^4.6.6: State management
-//● flutter_svg: ^2.0.7: Easily display and manipulate SVG files
+● get: ^4.6.6: State management\n
+● flutter_svg: ^2.0.7: Easily display and manipulate SVG files\n
 ● pin_code_fields: ^8.0.1: Implement PIN or OTP input fields
 ● carousel_slider: ^4.2.1: Creating interactive and dynamic image galleries
 ● cart_stepper: ^4.1.2: Widget to get count
