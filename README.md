@@ -4,10 +4,10 @@
 Cafty Bay an ecommerce app, allows users to shop online, browse product categories, create wish lists, add items to a cart, and complete purchases. It also provides payment processing, shipping, and order management capabilities.
 
 ## Application Download Link
-● 
+● https://drive.google.com/file/d/1tqI2XWcka1KRxNjCJMfY2d_SS9Ep885K/view?usp=sharing
 
 ## Demonstration Link
-● 
+● https://drive.google.com/file/d/1PN-ksheldSUrjMoCowiypZz0PxtJY_mV/view?usp=sharing
 
 ## Features of Crafty Bay
 ● Checking internet connection 
@@ -17,12 +17,11 @@ Cafty Bay an ecommerce app, allows users to shop online, browse product categori
 ● Check whether the user is registered or not before placing an order
 
 ## User Interface
-![Screenshot_20231106_174212](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/assets/112534902/a20a5d70-feb9-4fd1-b113-fcd2b25677f3)
-![Screenshot_20231106_183317](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/assets/112534902/d388a9ef-1412-4433-bd66-fe68c32db5bc)
-
+![image](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/assets/112534902/cc071286-74a4-46c0-98a3-036daa38c349)
+![image](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/assets/112534902/304c3063-dd29-4a66-b191-60cef5aa0dc1)
+![image](https://github.com/BIPLOB-SHIL/Ostad_Flutter_Batch_03-Assignment16/assets/112534902/afddaf63-a702-414b-8e4c-af7f5255b9c7)
 
 ## Used Packages
-
 ● get: ^4.6.6: State management
 ● flutter_svg: ^2.0.7: Easily display and manipulate SVG files
 ● pin_code_fields: ^8.0.1: Implement PIN or OTP input fields
@@ -36,7 +35,6 @@ Cafty Bay an ecommerce app, allows users to shop online, browse product categori
 ● flutter_phone_direct_caller: ^2.1.1: To call a number directly, without going to phone dialer
 
 ## MVP Structure
-
 craftybay/
 ├── assets/
 │   └── images/
@@ -128,15 +126,5 @@ craftybay/
 
 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
