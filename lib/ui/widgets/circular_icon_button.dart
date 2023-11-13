@@ -12,11 +12,11 @@ class CircularIconButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CircleAvatar(
-      radius: 20,
+      radius: 15,
       backgroundColor: Colors.grey.shade200,
       child: IconButton(
         onPressed: onPressed,
-        icon: Icon(icon,color: Colors.grey,),
+        icon: Icon(icon,color: Colors.grey,size: 15,),
       ),
     );
   }

@@ -3,6 +3,7 @@ import 'package:assignment16/presentation/state_holders/home_slider_controller.d
 import 'package:assignment16/presentation/state_holders/new_product_controller.dart';
 import 'package:assignment16/presentation/state_holders/popular_product_controller.dart';
 import 'package:assignment16/presentation/state_holders/special_product_controller.dart';
+import 'package:assignment16/ui/screens/auth/email_verification_screen.dart';
 import 'package:assignment16/ui/screens/product_list_screen.dart';
 import 'package:assignment16/ui/screens/read_profile_screen.dart';
 import 'package:flutter/cupertino.dart';
@@ -12,13 +13,14 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import '../ utility/image_assets.dart';
+import '../ utility/show_snackbar.dart';
+import '../../presentation/state_holders/auth_controller.dart';
 import '../../presentation/state_holders/main_bottom_nav_controller.dart';
 import '../widgets/category_card.dart';
 import '../widgets/circular_icon_button.dart';
 import '../widgets/home/selection_header.dart';
 import '../widgets/home/home_slider.dart';
 import '../widgets/product_card.dart';
-
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -28,7 +30,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-
   String customerSupport = '01717376932';
 
   @override
@@ -56,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               CircularIconButton(
                 onPressed: () {
-                    Get.to(()=>const ReadProfileScreen());
+                  Get.to(() => const ReadProfileScreen());
                 },
                 icon: Icons.person_2_outlined,
               ),
@@ -75,6 +76,26 @@ class _HomeScreenState extends State<HomeScreen> {
               CircularIconButton(
                 onPressed: () {},
                 icon: Icons.notifications_active_outlined,
+              ),
+              const SizedBox(
+                width: 8,
+              ),
+              CircularIconButton(
+                onPressed: () async {
+                  await AuthController.clearUserInfo();
+                  await AuthController.getAccessToken();
+                  if (mounted) {
+                      Get.offAll(() => const EmailVerificationScreen());
+                    showSnackBar("Logout successful",
+                        context, Colors.green[500], true);
+                  } else {
+                    if (mounted) {
+                      showSnackBar("Logout failed", context,
+                          Colors.red[500], false);
+                    }
+                  }
+                },
+                icon: Icons.login_outlined,
               ),
             ],
           )),
@@ -142,10 +163,12 @@ class _HomeScreenState extends State<HomeScreen> {
                         categoryData:
                             categoryController.categoryModel.data![index],
                         onTap: () {
-                           Get.to(
+                          Get.to(
                             () => ProductListScreen(
-                                categoryId: categoryController
-                                    .categoryModel.data![index].id!, categoryName: 'All Categories',),
+                              categoryId: categoryController
+                                  .categoryModel.data![index].id!,
+                              categoryName: 'All Categories',
+                            ),
                           );
                         },
                       );
@@ -159,10 +182,11 @@ class _HomeScreenState extends State<HomeScreen> {
               SelectionHeader(
                 title: "Popular",
                 onTap: () {
-                    Get.to(
+                  Get.to(
                     () => ProductListScreen(
                       productModel: Get.find<PopularProductController>()
-                          .popularProductModel, categoryName: 'Popular product',
+                          .popularProductModel,
+                      categoryName: 'Popular product',
                     ),
                   );
                 },
@@ -196,16 +220,16 @@ class _HomeScreenState extends State<HomeScreen> {
                 height: 16,
               ),
               SelectionHeader(
-                title: "Special",
-                onTap: () {
-                   Get.to(
-                    () => ProductListScreen(
-                      productModel: Get.find<SpecialProductController>()
-                          .specialProductModel, categoryName: 'Special product',
-                    ),
-                  );
-                }
-              ),
+                  title: "Special",
+                  onTap: () {
+                    Get.to(
+                      () => ProductListScreen(
+                        productModel: Get.find<SpecialProductController>()
+                            .specialProductModel,
+                        categoryName: 'Special product',
+                      ),
+                    );
+                  }),
               SizedBox(
                 height: 130,
                 child: GetBuilder<SpecialProductController>(
@@ -237,10 +261,11 @@ class _HomeScreenState extends State<HomeScreen> {
               SelectionHeader(
                 title: "New",
                 onTap: () {
-                   Get.to(
+                  Get.to(
                     () => ProductListScreen(
                       productModel:
-                          Get.find<NewProductController>().newProductModel, categoryName: 'New product',
+                          Get.find<NewProductController>().newProductModel,
+                      categoryName: 'New product',
                     ),
                   );
                 },
